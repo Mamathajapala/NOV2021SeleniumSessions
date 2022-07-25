@@ -68,7 +68,6 @@ public class FluentWaitConcept {
 		
 	WebElement element = wait.until(new Function<WebDriver, WebElement>(){
 		
-			@Override 
 			public WebElement apply(WebDriver driver) {
 				return driver.findElement(locator);
 				
