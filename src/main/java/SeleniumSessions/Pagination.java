@@ -19,6 +19,11 @@ public class Pagination {
 
 		driver.get("https://babynames.merschat.com/popular.cgi");
 
+//		Pagination
+//		Sreach name in Pages: 
+//		for Pagination we have to use while loop when we are not sure about number cycles/iterations
+//
+
 		List<WebElement> nameList = driver.findElements(By.xpath("//a[contains(text(),'Heli')]"));
 
 		while (true) {

@@ -22,6 +22,10 @@ public class SVGElements {
 		driver.get("https://petdiseasealerts.org/forecast-map#/");
 		Thread.sleep(5000);
 		
+		
+
+//SvgElements: For SVG elements normal xpath will not work and CSS as well
+//*[local-name()='svg' and @id='mag-svg]//*[name()='g' and @id='states']/*[name()='path']"
 		String svgXpath = "//*[local-name()='svg' and @id='mag-svg]//*[name()='g' and @id='states']/*[name()='path']";
 		
 		List<WebElement> statesList=driver.findElements(By.xpath(svgXpath));
