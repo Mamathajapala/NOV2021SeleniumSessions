@@ -14,7 +14,7 @@ public class WebDriverBasics {
 	public static void main(String[] args) {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Santosh Kumar\\Downloads\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Santosh Kumar\\Downloads\\chromedriver);
 		WebDriver driver = new ChromeDriver();//open the browser
 		//WebDriver driver = new FirefoxDriver();
 		//WebDriver driver = new SafariDriver();

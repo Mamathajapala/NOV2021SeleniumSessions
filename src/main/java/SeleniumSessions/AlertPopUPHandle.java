@@ -40,6 +40,7 @@ public class AlertPopUPHandle {
 		alert.accept();// click on Ok button
 		
 		alert.dismiss();//Cancel the alert
+
 		
 		
 

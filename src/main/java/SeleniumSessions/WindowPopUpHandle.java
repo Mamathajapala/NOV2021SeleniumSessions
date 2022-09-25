@@ -17,7 +17,11 @@ public class WindowPopUpHandle {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("http://www.popuptest.com/goodpopups.html");
+		//driver.get("http://www.popuptest.com/goodpopups.html");
+		
+		driver.get("http://demo.guru99.com/popup.php");
+
+
 		
 		driver.findElement(By.linkText("Good Pop-up 3#")).click();
 		
